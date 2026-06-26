@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <title>Betrayal.io - Remake</title>
+                                        <link rel="stylesheet" href="/asset/app.css?3e217fc" type="text/css">
+                    
+
+            <meta name="description" content="Play Betrayal.io - An online multiplayer mystery game for 6 to 12 players! Betray your teammates as the betrayer, or work together as a team to win as crew members! Coming soon to PC, iOS and Android.">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@betrayalio">
+        <meta name="og:title" content="Join me in Betrayal.io!">
+        <meta name="og:description" content="Play Betrayal.io - An online multiplayer mystery game for 6 to 12 players! Betray your teammates as the betrayer, or work together as a team to win as crew members! Coming soon to PC, iOS and Android.">
+        <meta name="og:image" content="https://betrayal.io/asset/image/share-card-betrayal.png">
+                </head>
+
+    <body class="home">
+            <main class="home">
+        <div class="home-loading">
+            <div class="home-loading-character"></div>
+            <div class="home-loading-logo"></div>
+            <div class="home-loading-top-left">Betrayal.io - Alpha Remake </div>
+            <div class="home-loading-bottom-left">Betrayal.io is a social deduction game inspired by Werewolf, Town of Salem, Among Us. ORIGINAL GAME BY END GAME INTERACTIVE, INC.</div>
+            <div class="home-loading-bottom-right">&copy; LoganRemakesSomeGames, Inc. 2026</div>
+        </div>
+    </main>
+            <script src="/asset/app.js?58042e2"></script>
+        <script src="https://storage.endext.com/betrayal/releases/webgl/1.5.0/8f3f4f14fabe460ea5eac1f3a95dc95f/Build/webgl.loader.js"></script>
+    <script>
+        let firebaseApp = firebase.initializeApp({
+            apiKey: 'AIzaSyCYm92f1ikG9FK84JGHd1jUFYCD0-oSnzI',
+            authDomain: 'betrayalio.firebaseapp.com',
+            projectId: 'betrayalio',
+            storageBucket: 'betrayalio.appspot.com',
+            messagingSenderId: '233599413784',
+            appId: '1:233599413784:web:e0a09e7b5167c8804ddd6d'
+        });
+
+        let game = new Game({
+            dataUrl: 'https://storage.endext.com/betrayal/releases/webgl/1.5.0/8f3f4f14fabe460ea5eac1f3a95dc95f/Build/webgl.data.br',
+            frameworkUrl: 'https://storage.endext.com/betrayal/releases/webgl/1.5.0/8f3f4f14fabe460ea5eac1f3a95dc95f/Build/webgl.framework.js.br',
+            codeUrl: 'https://storage.endext.com/betrayal/releases/webgl/1.5.0/8f3f4f14fabe460ea5eac1f3a95dc95f/Build/webgl.wasm.br',
+            streamingAssetsUrl: 'https://storage.endext.com/betrayal/releases/webgl/1.5.0/8f3f4f14fabe460ea5eac1f3a95dc95f/StreamingAssets',
+            stage: 'prod',
+            sessionId: 'bd54553a93bbbba26749da25ade81308',
+            userData: false,
+            isInDiscordEmbed: false,
+            isFishingtonSite: false,
+            isMetaverseFishingSite: false,
+                    });
+
+        game.init().then(() => {
+            console.log('Ready to launch!');
+        });
+    </script>
+    <script src="//static.xsolla.com/embed/paystation/1.0.7/widget.min.js" async></script>
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FYRV7C0YPZ"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-FYRV7C0YPZ');
+            </script>
+                <div id="cdm-zone-end"></div>
+    </body>
+</html>
